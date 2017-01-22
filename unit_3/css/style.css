@@ -1,55 +1,57 @@
 body {
-	background: black;
+	background-image: url("https://github.com/Redeclip6x/Redeclip6x.github.io/blob/master/unit_3/images/SantaFe_Entry_filter.jpg?raw=true");
 	background-size: cover;
+	background-color: black;
+	font-family: arial;
+	color: white;
 }
 
 .header {
-	width: 100%;
-	height: 15%;
+	text-align: center;
 	color: white;
-	font-size: 20px;
-	position: absolute;
+	font-size: 30px;
+	font-family: arial;
+	font-style: italic;
+	background-color: black;
+}
+
+.align-center {
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding: 15px;
 
 }
 
-h1 {
-	background-image: url("images/SantaFe_Entry_filter.jpg");
-	color: #fff;
-	text-align: center;
-	font-family: Arial;
-	font-weight: bold;
+.navbar ul {
+	width: 100%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+ }
+
+.navbar li {
+	display: inline;
+	float: right;
+
+}
+
+.navbar li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
 }
 
 p {
-	color: #fff;
-	text-align: center;
-	font-family: Arial;
-	font-weight: bold;
+	
 }
 
-ul{
-	color: #fff;
-	text-align: center;
-	font-family: Arial;
-	font-weight: bold;
-}
-
-li{
-	color: #fff;
-	text-align: left;
-	font-family: Arial;
-	font-weight: bold;
-}
-
-img{
-	color: #fff;
-	align-self: center;
-	font-family: Arial;
-	font-weight: bold;
-}
-
-#slogan {
-
-font-style: italic;
-
-}
