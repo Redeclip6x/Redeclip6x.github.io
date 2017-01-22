@@ -1,0 +1,55 @@
+body {
+	background: black;
+	background-size: cover;
+}
+
+.header {
+	width: 100%;
+	height: 15%;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+
+}
+
+h1 {
+	background-image: url("images/SantaFe_Entry_filter.jpg");
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+p {
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+ul{
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+li{
+	color: #fff;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+img{
+	color: #fff;
+	align-self: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#slogan {
+
+font-style: italic;
+
+}
