@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 https://wireframe.cc/HPbCzE
 
 https://wireframe.cc/0DBmig
 
+=======
+https://wireframe.cc/HPbCzE
+
+https://wireframe.cc/0DBmig
+
+>>>>>>> origin/master
