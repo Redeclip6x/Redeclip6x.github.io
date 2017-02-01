@@ -9,6 +9,7 @@
 }
 
 body {
+	background-size: cover;
 	background-color: black;
 	font-family: 'Lato', sans-serif;
 	color: white;
@@ -16,17 +17,17 @@ body {
 
 #logo {
 	width: 100%;
-	background-color: white;
+	background-color: #000000;
 }
 
 .header {
 	text-align: center;
-	background-color: white;
-	color: black;
+	color: white;
 	width: 100%;
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
+	background-color: black;
 }
 
 .align-right {
@@ -75,7 +76,6 @@ p {
 	text-align: center;
 	font-size: 1.25em;
 	font-family: 'Permanent Marker', cursive;
-	color: black;
 
 }
 .main {
@@ -96,4 +96,5 @@ p {
 a.email:hover {
 	color: orange;
     text-decoration: underline;
+>>>>>>> origin/master
 }
