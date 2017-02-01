@@ -10,7 +10,7 @@
 
 body {
 	background-size: cover;
-	background-color: black;
+	background-color: #241500;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
@@ -18,6 +18,19 @@ body {
 #logo {
 	width: 100%;
 	background-color: #FFF;
+}
+
+#logo img {
+	display: block;
+	width: 100%;
+	max-width: 525px;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .header {
@@ -53,7 +66,7 @@ body {
 	margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #4f953b;
     font-family: 'Lato', sans-serif;
 }
 
@@ -68,7 +81,7 @@ body {
 }
 
 .navbar2 a:hover {
-	 background-color: #111;
+	 background-color: #331E00;
 	 color: orange;
 }
 
@@ -76,8 +89,17 @@ p {
 	text-align: center;
 	font-size: 1.25em;
 	font-family: 'Permanent Marker', cursive;
+	color: #000;
 
 }
+
+.ptext{
+	text-align: center;
+	font-size: 1.25em;
+	font-family: 'Permanent Marker', cursive;
+	color: #4f953b;
+}
+
 .main {
 	margin-right: 1em;
 	margin-left: 1em;
@@ -87,6 +109,7 @@ p {
 	margin: 1em;
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
+	color: #FFF;
 }
 
 .email {
@@ -96,5 +119,4 @@ p {
 a.email:hover {
 	color: orange;
     text-decoration: underline;
->>>>>>> origin/master
 }
