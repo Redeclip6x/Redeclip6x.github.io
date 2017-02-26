@@ -10,13 +10,13 @@
 
 body {
 	background-color: #000;
-	padding: 20px;
+	padding: .2em;
 }
 
 header {
 	background-color: #fff;
 	border: 1px black solid;
-	padding: 5px;
+	padding: .5em;
 }
 
 nav {
@@ -41,7 +41,7 @@ a:hover {
 aside {
 	background-color: #000;
 	border: 1px black solid;
-	padding: 10px;
+	padding: .2em;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 }
@@ -57,10 +57,10 @@ footer {
 	color: #4f953b;
 	text-align: center;
 	border: 1px black solid;
-	padding: 20px;
+	padding: .2em;
 }
 
-section, div {
+section, div, article {
 	background-color: #4f953b;
 	padding: 5px;
 	overflow: hidden;
@@ -79,8 +79,6 @@ main {
 	color: #000;
 	background-color: #4f953b;
 }
-
-
 
 .navbar {
 	color: #fff;
