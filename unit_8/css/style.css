@@ -24,6 +24,8 @@ footer {
     padding: .2em;
     width: 100%;
     max-height: 10%;
+    position: absolute;
+    bottom: 0;
 }
 
 img {
@@ -94,7 +96,7 @@ img {
 }
 
 .navbar2 a:hover {
-	 background-color: #331E00;
+	 background-color: #000;
 	 color: orange;
 }
 
@@ -149,10 +151,38 @@ a.email:hover {
 	}
 }
 
-@media only screen and (max-width: 580px) {
+@media screen and (max-width: 580px) {
 	
-	.navbar2 {
-		float: none;
+	.navbar2 a {
+		display: block;
+		float:none;
+		border: 2px black solid;
+		
 	}
+
+	.navlink {
+	padding: 1em 1em;
+
+    }
+
+	.align-right {
+		width: 100%;
+	}
+
+	#logo img {
+	display: block;
+	width: 100%;
+	min-width: 25%;
+	min-height: 25%;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	}
+
+	footer {
+	position: relative;
+}
+
+
   
 }
