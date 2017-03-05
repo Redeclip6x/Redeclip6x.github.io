@@ -22,6 +22,10 @@ img {
 
 }
 
+p{
+
+}
+
 #logo {
 	width: 100%;
 	background-color: #FFF;
@@ -72,8 +76,19 @@ img {
 	height: 0;
 }
 
-.background {
-	background-image: url(images/santafeback.jpg);
+#background{
+	background-image: url("images/sfb.gif");
+
+}
+.mainbox {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	max-height: 320px;
+	max-width: 320px;
+	border: 1px solid black;
+	padding: 1em 1em 1em 1em;
+	margin: 5em 5em 5em 5em;
+
 }
 
 @media only screen and (max-width: 1258px) {
