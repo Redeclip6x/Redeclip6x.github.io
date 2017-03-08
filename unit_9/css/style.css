@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
 
 * {
 	margin: 0;
@@ -9,7 +10,7 @@
 }
 
 header {
-	width: 100%;
+	width: 90%;
 	background-color: #FFF;
 	margin: 1em 1em 1em 1em;
 
@@ -29,21 +30,18 @@ p{
 #logo {
 	width: 100%;
 	background-color: #FFF;
+	padding: 1em;
+	max-width: 960px;
+	margin: 0 auto;
 }
 
 #logo img {
 	display: block;
 	width: 100%;
-	min-width: 25%;
-	min-height: 25%;
-	max-width: 50%;
-	max-height: 50%;
-	margin: 0 auto;
 }
 
 .navbar2 {
 	width: 100%;
-	height: 50%;
 	margin: 0;
     padding: 0;
     overflow: hidden;
@@ -76,22 +74,38 @@ p{
 	height: 0;
 }
 
-#background{
-	background-image: url("images/sfb.gif");
-
+#hero{
+	background-color: #000;
+	width: 100%;
+	position: relative;
 }
+
+#hero img {
+	display: block;
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 .mainbox {
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-family: 'Paytone', sans-serif;
+	font-size: 30px;
+	font-style: bolder;
 	max-height: 320px;
 	max-width: 320px;
-	border: 1px solid black;
+	border: 5px solid black;
 	padding: 1em 1em 1em 1em;
-	margin: 5em 5em 5em 5em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4f953b;
 
 }
 
-@media only screen and (max-width: 1258px) {
+@media only screen and (max-width: 1200px) {
 	.align-right {
 		display: block;
 	}
@@ -115,18 +129,12 @@ p{
 		width: 100%;
 	}
 
-	#logo img {
-	display: block;
-	width: 100%;
-	min-width: 25%;
-	min-height: 25%;
-	max-width: 100%;
-	max-height: 100%;
-	margin: 0 auto;
-	}
-
 	footer {
 	position: relative;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: #000;
+	color: #fff;
 }
 
 
